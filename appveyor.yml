@@ -1,3 +1,24 @@
 version: 1.0.{build}
+skip_tags: true
+image: Visual Studio 2019
+configuration: Release
+platform: Any CPU
+
+before_build:
+  - nuget restore
+  - choco install opencover.portable
+  - choco install codecov
+
 build:
-  verbosity: minimal
+  verbosity: detailed
+  project: ServiceModelEx.ServiceFabric\Microservice.sln  
+
+notifications:
+
+  # Email
+  - provider: Email
+    to:
+      - rafae11@email.com      
+    subject: 'Build {{status}}'                  # optional
+    message: "{{message}}, {{commitId}}, ..."    # optional
+    on_build_status_changed: true
