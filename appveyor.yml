@@ -10,7 +10,7 @@ before_build:
 
 build:
   verbosity: detailed
-  project: Services\The Method\Microservice\ServiceModelEx.ServiceFabric\Microservice.sln
+  project: Microservice.sln
 
 notifications:
 - provider: Email
