@@ -1,0 +1,51 @@
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Test.Client.Content.exe
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Test.Client.Content.pdb
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Framwork.Proxy.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Manager.Content.Interface.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Internal.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Services.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\ServiceFabricServiceModel.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\System.Fabric.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\System.Fabric.Strings.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Actors.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Core.dll
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Manager.Content.Interface.pdb
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Framwork.Proxy.pdb
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.xml
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Services.xml
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\System.Fabric.xml
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Actors.xml
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Core.pdb
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.csprojResolveAssemblyReference.cache
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.exe
+C:\Development\Service Fabric\Demos\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.pdb
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Test.Client.Content.exe
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Test.Client.Content.pdb
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Framwork.Proxy.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Manager.Content.Interface.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Internal.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Services.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\ServiceFabricServiceModel.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\System.Fabric.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\System.Fabric.Strings.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Actors.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Core.dll
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Manager.Content.Interface.pdb
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Company.Framwork.Proxy.pdb
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.xml
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Services.xml
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\System.Fabric.xml
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Microsoft.ServiceFabric.Actors.xml
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\bin\x64\Debug\Core.pdb
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.csprojAssemblyReference.cache
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.csproj.CopyComplete
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.exe
+C:\Tutorials\Services\The Method\Microservice\Azure.ServiceFabric\Test\Client\Content\obj\x64\Debug\Test.Client.Content.pdb

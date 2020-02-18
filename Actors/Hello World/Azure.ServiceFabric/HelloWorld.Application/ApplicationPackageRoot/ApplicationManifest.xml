@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="HelloWorld.StatelessActor" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="HelloWorldActorService_PartitionCount" DefaultValue="10" />
+    <Parameter Name="HelloWorldActorService_MinReplicaSetSize" DefaultValue="1" />
+    <Parameter Name="HelloWorldActorService_TargetReplicaSetSize" DefaultValue="1" />
+  </Parameters>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="HelloWorld.ActorPkg" ServiceManifestVersion="1.0.0" />
+  </ServiceManifestImport>
+  <DefaultServices>
+    <Service Name="HelloWorldActorService" GeneratedIdRef="07058493-63c6-4cdd-a73e-13b9b6b0617b|None">
+      <StatefulService ServiceTypeName="HelloWorldActorServiceType" TargetReplicaSetSize="[HelloWorldActorService_TargetReplicaSetSize]" MinReplicaSetSize="[HelloWorldActorService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[HelloWorldActorService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+  </DefaultServices>
+</ApplicationManifest>

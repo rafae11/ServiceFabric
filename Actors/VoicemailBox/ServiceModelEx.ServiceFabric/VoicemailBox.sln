@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoicemailBox.Interface", "VoicemailBox.Interface\VoicemailBox.Interface.csproj", "{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoicemailBox.Actor", "VoicemailBox.Actor\VoicemailBox.Actor.csproj", "{54F7EA58-2334-4E17-A35F-478759E53517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{435D63A3-4015-4F9C-9347-FD1B0008A30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceModelEx", "..\..\..\ServiceModelEx - Service Fabric\ServiceModelEx.csproj", "{0858C710-AF53-4049-B98E-CFE3638D1228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Debug|x64.ActiveCfg = Debug|x64
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Debug|x64.Build.0 = Debug|x64
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Release|Any CPU.ActiveCfg = Release|x64
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Release|x64.ActiveCfg = Release|x64
+		{BCCB0EF2-8819-42DB-8BE9-EB7553FEF4A4}.Release|x64.Build.0 = Release|x64
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Debug|x64.ActiveCfg = Debug|x64
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Debug|x64.Build.0 = Debug|x64
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Release|Any CPU.ActiveCfg = Release|x64
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Release|x64.ActiveCfg = Release|x64
+		{54F7EA58-2334-4E17-A35F-478759E53517}.Release|x64.Build.0 = Release|x64
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Debug|x64.Build.0 = Debug|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Release|x64.ActiveCfg = Release|Any CPU
+		{435D63A3-4015-4F9C-9347-FD1B0008A30C}.Release|x64.Build.0 = Release|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Debug|x64.Build.0 = Debug|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Release|x64.ActiveCfg = Release|Any CPU
+		{0858C710-AF53-4049-B98E-CFE3638D1228}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="VoicemailBox.StatefulActor" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="VoicemailBoxActorService_PartitionCount" DefaultValue="10" />
+    <Parameter Name="VoicemailBoxActorService_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="VoicemailBoxActorService_TargetReplicaSetSize" DefaultValue="3" />
+  </Parameters>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="VoicemailBox.ActorPkg" ServiceManifestVersion="1.0.0" />
+  </ServiceManifestImport>
+  <DefaultServices>
+    <Service Name="VoicemailBoxActorService" GeneratedIdRef="0f3e1ebe-3cab-407d-ae1b-a5e007bcda5a|Volatile">
+      <StatefulService ServiceTypeName="VoicemailBoxActorServiceType" TargetReplicaSetSize="[VoicemailBoxActorService_TargetReplicaSetSize]" MinReplicaSetSize="[VoicemailBoxActorService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[VoicemailBoxActorService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+  </DefaultServices>
+</ApplicationManifest>

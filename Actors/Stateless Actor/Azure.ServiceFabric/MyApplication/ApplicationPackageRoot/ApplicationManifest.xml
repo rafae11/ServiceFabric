@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="MyApplication.StatelessActor" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="MyStatelessActorService_PartitionCount" DefaultValue="10" />
+    <Parameter Name="MyStatelessActorService_MinReplicaSetSize" DefaultValue="1" />
+    <Parameter Name="MyStatelessActorService_TargetReplicaSetSize" DefaultValue="1" />
+  </Parameters>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="MyApplication.ActorPkg" ServiceManifestVersion="1.0.0" />
+  </ServiceManifestImport>
+  <DefaultServices>
+    <Service Name="MyStatelessActorService" GeneratedIdRef="5fcd1a41-5217-4ddb-854a-162ad2af1baa|None">
+      <StatefulService ServiceTypeName="MyStatelessActorServiceType" TargetReplicaSetSize="[MyStatelessActorService_TargetReplicaSetSize]" MinReplicaSetSize="[MyStatelessActorService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[MyStatelessActorService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+  </DefaultServices>
+</ApplicationManifest>

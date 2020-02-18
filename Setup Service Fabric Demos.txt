@@ -1,0 +1,15 @@
+To run the ServiceModelEx.ServiceFabric demos:
+
+1. Unzip demo without the .zip file name.
+
+2. Download the latest ServiceModelEx from:
+   http://www.idesign.net/Downloads/GetDownload/1887
+
+3. Place the ServiceModelEx - Service Fabric folder at the same level as Actors or Services folder.
+   - All demos expect the ServiceModelEx project to be in this location.
+
+4. Manage the Moq dependency for ServiceModelEx through NuGet.
+
+5. All demos will automatically update thier NuGet packages upon first build.
+
+6. See 'Setup persistent storage for stateful actors.txt' for details on one time setup to use persistent state storage with ServiceModelEx.ServiceFabric stateful actor demos.

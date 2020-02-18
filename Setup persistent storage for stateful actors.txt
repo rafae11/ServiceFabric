@@ -1,0 +1,11 @@
+NOTE:
+By default, ServiceModelEx.ServiceFabric stateful actors use in-memory volatile resource managers for state storage and management. For persistent (reliable) state storage, ServiceModelEx.ServiceFabric stateful actors rely on WCF durable services for state storage and management. For proper operation of persistent state storage with these demos, you must first setup the durable services table in your local development database instance.
+
+To run the stateful actor demos using persistent state storage:
+1. Create the durable servies table in your local development database instance.
+   - You will find the script for table creation, SqlPersistenceService_Schema.sql, here:
+     [%SystemRoot%]\Microsoft.NET\Framework\<Latest .NET version>\SQL\en
+
+2. Uncomment the durable services connection string in the app.config of the relevant actor project.
+
+3. Set the actor's StatePersistence attribute to 'Persisted'.
