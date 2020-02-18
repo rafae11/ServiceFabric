@@ -5,7 +5,7 @@ configuration: Release
 platform: Any CPU
 
 before_build:
-  - nuget restore 
+  - nuget restore Microservice.sln 
   - choco install opencover.portable
   - choco install codecov
 
