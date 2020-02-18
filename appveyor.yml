@@ -1,3 +1,32 @@
-version: 2.0.0-{build}
+version: 1.0.{build}
+branches:
+  except:
+  - master
+skip_tags: true
+image: Visual Studio 2019
+configuration: Release
+platform: Any CPU
+
+configuration : Release
+
+before_build:
+  - nuget restore
 
 build:
+  verbosity: detailed
+  project: ServiceModelEx.ServiceFabric\Microservice.sln
+  publish_wap:true
+
+CODECOV_TOKEN="431e4b59-a6eb-4597-9249-9653fc1f6004"
+
+bash <(curl -s https://codecov.io/bash)
+
+notifications:
+
+  # Email
+  - provider: Email
+    to:
+      - rafae11@email.com      
+    subject: 'Build {{status}}'                  # optional
+    message: "{{message}}, {{commitId}}, ..."    # optional
+    on_build_status_changed: true
