@@ -5,20 +5,14 @@ configuration: Release
 platform: Any CPU
 
 before_build:
-  - nuget restore
+  - nuget restore ServiceModelEx.ServiceFabric\Microservice.sln
   - choco install opencover.portable
   - choco install codecov
+
 
 build:
   verbosity: detailed
   project: ServiceModelEx.ServiceFabric\Microservice.sln  
 
-notifications:
 
-  # Email
-  - provider: Email
-    to:
-      - rafae11@email.com      
-    subject: 'Build {{status}}'                  # optional
-    message: "{{message}}, {{commitId}}, ..."    # optional
-    on_build_status_changed: true
+
