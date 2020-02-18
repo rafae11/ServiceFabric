@@ -17,8 +17,6 @@ build:
   project: ServiceModelEx.ServiceFabric\Microservice.sln
   publish_wap:true
 
-bash <(curl -s https://codecov.io/bash)
-
 notifications:
 
   # Email
