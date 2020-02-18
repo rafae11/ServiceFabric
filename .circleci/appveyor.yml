@@ -4,7 +4,8 @@ before_build:
   - nuget restore
 
 build:
-  verbosity: minimal
+  verbosity: detailed
+  project: Microservice.sln
   publish_wap:true
 
 CODECOV_TOKEN="431e4b59-a6eb-4597-9249-9653fc1f6004"
