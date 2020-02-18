@@ -1,0 +1,5 @@
+version: 1.0.{build}
+build:
+  verbosity: minimal
+CODECOV_TOKEN="431e4b59-a6eb-4597-9249-9653fc1f6004"
+bash <(curl -s https://codecov.io/bash)
