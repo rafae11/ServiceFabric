@@ -12,7 +12,7 @@ before_build:
 
 build:
   verbosity: detailed
-  project: ServiceModelEx.ServiceFabric\Microservice.sln  
+  project: Microservice.sln  
 
 
 
