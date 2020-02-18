@@ -10,5 +10,12 @@ before_build:
 
 build:
   verbosity: detailed
-  project: C:\projects\servicefabric\Services\The Method\Microservice\ServiceModelEx.ServiceFabric\Microservice.sln
-  
+  project: Services\The Method\Microservice\ServiceModelEx.ServiceFabric\Microservice.sln
+
+notifications:
+- provider: Email
+  to:
+  - rafae11@yahoo.com
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
