@@ -1,0 +1,962 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Test\\Harness\\Content\\Test.Harness.Content.csproj": {}
+  },
+  "projects": {
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj",
+        "projectName": "Company.Access.Module.Interface",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Service\\Company.Access.Module.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Service\\Company.Access.Module.Service.csproj",
+        "projectName": "Company.Access.Module.Service",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Service\\Company.Access.Module.Service.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj",
+        "projectName": "Company.Access.User.Interface",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Service\\Company.Access.User.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Service\\Company.Access.User.Service.csproj",
+        "projectName": "Company.Access.User.Service",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Service\\Company.Access.User.Service.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj",
+        "projectName": "Company.Engine.Transform.Interface",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Service\\Company.Engine.Transform.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Service\\Company.Engine.Transform.Service.csproj",
+        "projectName": "Company.Engine.Transform.Service",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Service\\Company.Engine.Transform.Service.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Interface\\Company.Access.Module.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Interface\\Company.Access.User.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj",
+        "projectName": "Company.Engine.Validation.Interface",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Service\\Company.Engine.Validation.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Service\\Company.Engine.Validation.Service.csproj",
+        "projectName": "Company.Engine.Validation.Service",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Service\\Company.Engine.Validation.Service.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj",
+        "projectName": "Company.Manager.Content.Interface",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Service\\Company.Manager.Content.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Service\\Company.Manager.Content.Service.csproj",
+        "projectName": "Company.Manager.Content.Service",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Service\\Company.Manager.Content.Service.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Interface\\Company.Engine.Transform.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Interface\\Company.Engine.Validation.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj",
+        "projectName": "Company.Framework.Common",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj",
+        "projectName": "Company.Framework.Proxy",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Common\\Company.Framework.Common.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Server\\Company.Framework.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Server\\Company.Framework.Server.csproj",
+        "projectName": "Company.Framework.Server",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Server\\Company.Framework.Server.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Microservice\\Content\\Company.Microservice.Content.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Microservice\\Content\\Company.Microservice.Content.csproj",
+        "projectName": "Company.Microservice.Content",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Microservice\\Content\\Company.Microservice.Content.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Microservice\\Content\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Service\\Company.Access.Module.Service.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\Module\\Service\\Company.Access.Module.Service.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Service\\Company.Access.User.Service.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Access\\User\\Service\\Company.Access.User.Service.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Service\\Company.Engine.Transform.Service.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Transform\\Service\\Company.Engine.Transform.Service.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Service\\Company.Engine.Validation.Service.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Engine\\Validation\\Service\\Company.Engine.Validation.Service.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Service\\Company.Manager.Content.Service.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Service\\Company.Manager.Content.Service.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Server\\Company.Framework.Server.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Server\\Company.Framework.Server.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj",
+        "projectName": "ServiceModelEx",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Test\\Harness\\Content\\Test.Harness.Content.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Test\\Harness\\Content\\Test.Harness.Content.csproj",
+        "projectName": "Test.Harness.Content",
+        "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Test\\Harness\\Content\\Test.Harness.Content.csproj",
+        "packagesPath": "C:\\Users\\rafaelg\\.nuget\\packages\\",
+        "outputPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Test\\Harness\\Content\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\rafaelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/blairmoir-aypn2trbbqsw": {},
+          "https://ciqfreenuget.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Component\\Manager\\Content\\Interface\\Company.Manager.Content.Interface.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Framework\\Proxy\\Company.Framework.Proxy.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Microservice\\Content\\Company.Microservice.Content.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\Company\\Microservice\\Content\\Company.Microservice.Content.csproj"
+              },
+              "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj": {
+                "projectPath": "C:\\Tutorials\\Services\\The Method\\Microservice\\ServiceModelEx.ServiceFabric\\ServiceModelEx.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

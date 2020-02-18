@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C338CCBA-BA2E-498F-B926-168E707521EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Company.Microservice.Content</RootNamespace>
+    <AssemblyName>Company.Microservice.Content</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ServiceModelEx_ServiceFabric</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hosting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Component\Access\Module\Service\Company.Access.Module.Service.csproj">
+      <Project>{4bc74dfa-c12e-498c-802e-a64488562923}</Project>
+      <Name>Company.Access.Module.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Component\Access\User\Service\Company.Access.User.Service.csproj">
+      <Project>{6727994c-059b-4f05-9fc5-50ad68d263ca}</Project>
+      <Name>Company.Access.User.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Component\Engine\Transform\Service\Company.Engine.Transform.Service.csproj">
+      <Project>{4e43b228-71ee-4f2e-8b2d-5509fb32da2d}</Project>
+      <Name>Company.Engine.Transform.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Component\Engine\Validation\Service\Company.Engine.Validation.Service.csproj">
+      <Project>{73eab49a-4bd0-44c1-b871-6dd410c5e0b4}</Project>
+      <Name>Company.Engine.Validation.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Component\Manager\Content\Service\Company.Manager.Content.Service.csproj">
+      <Project>{0aad37f4-97d3-4130-807f-fce78c4f2d7b}</Project>
+      <Name>Company.Manager.Content.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\Server\Company.Framework.Server.csproj">
+      <Project>{98389a94-5b86-4ac4-ac86-5a03a02d68ca}</Project>
+      <Name>Company.Framework.Server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Moq">
+      <Version>4.13.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
